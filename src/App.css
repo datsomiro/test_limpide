@@ -2,9 +2,19 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+tr {
+  border: solid black;
+  text-align: center;
+  width:100%;
+  margin-left:25%;
+}
+th{
+  border: solid black;
+  text-align: center;
+}
+td {
+  border: solid black;
+  width: 25%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
