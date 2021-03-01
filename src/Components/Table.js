@@ -6,7 +6,7 @@ const Table = () => {
     const { close, offexchtradevolumeeex, onexchtradevolumeeex, tradedatetimegmt } = data //destructuring
 
     return (
-
+        {table.map((data) => (
         <table>
             <thead>
                 <tr>
@@ -18,18 +18,19 @@ const Table = () => {
             </thead>
             <tbody>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    
+                    <td>{data.close}</td>
+                    <td>{data.offexchtradevolumeeex}</td>
+                    <td>{data.onexchtradevolumeeex }</td>
+                    <td>{data.tradedatetimegmt}</td>
+                    )
                 </tr>
             </tbody>
         </table> 
         
-    )
-}
-
-export default Table
+    ))
+})}
 
 
+export default Table;
 

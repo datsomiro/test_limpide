@@ -1,5 +1,5 @@
 import './App.css';
-import Table from './Components/Table.js';
+import Data from './Components/Table.js';
 import data from './Constants/data.json';
 
 function App() {
